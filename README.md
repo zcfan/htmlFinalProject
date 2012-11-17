@@ -1,4 +1,4 @@
 htmlFinalProject
 ============
 
-Langara STEP html5 course final project
+Langara STEP html5 course final project.

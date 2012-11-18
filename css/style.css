@@ -1,9 +1,10 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
-	font-size: 13px;
+	font-size: 14px;
 	color: #777;
-	background-color: #000;
+	background-color: #0a0a0a;
+	text-align: center;
 }
 
 .container {
@@ -14,11 +15,11 @@ body {
 
 /* Navbar - Start */
 
-.brand {
+#brand {
 	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
-	text-shadow: 1px 1px 0 rgba(0, 0, 0, 1), 0 0 30px rgba(255, 255, 255, .625);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.70), 0 0 30px rgba(255, 255, 255, .65);
 	margin-left: 20px;
 	padding: 10px 0 10px 0;
 	float: right;
@@ -37,7 +38,7 @@ nav {
 	background-image: linear-gradient(to bottom, rgb(34, 34, 34), rgb(17, 17, 17));
 }
 
-.navbar {
+#navbar {
 	list-style: none;
 	position: relative;
 	left: 0;
@@ -45,11 +46,11 @@ nav {
 	margin: 0 10px 0 0;
 }
 
-nav .navbar > li {
+nav #navbar > li {
 	float: left;
 }
 
-nav .navbar > li > a {
+nav #navbar > li > a {
 	font-size: 13px;
 	color: #999;
 	padding: 10px 15px 10px;
@@ -58,13 +59,125 @@ nav .navbar > li > a {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
-nav .navbar > .active > a {
+nav #navbar > .active > a {
 	color: #fff;
 	background-color: #111;
 }
 
-nav .navbar > li > a:hover {
+nav #navbar > li > a:hover {
 	color: #fff;
 }
 
 /* Navbar - End */
+
+/* Banner - Start */
+
+.masthead {
+	padding: 80px 0px 40px;
+}
+
+.banner {
+	height: 300px;
+	border-top: 1px solid #16909C;
+	border-bottom: 1px solid #000;
+	box-shadow: 0 -3px 50px rgba(0, 200, 255, 0.40);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: -webkit-linear-gradient(top, #137781, #116A73);
+	background-image: linear-gradient(to bottom, #137781, #116A73);
+	background-color: #137781;
+	overflow:hidden;
+}
+
+.banner > h1 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 70px;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.40), 0 1px 0 #036;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.banner > p {
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 0 1px 0 #333;
+}
+
+.banner > .sns {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.banner > .sns > li {
+	padding: 7px 10px;
+	display: inline-block;
+}
+
+.banner > .sns > li img {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	box-shadow: 0 1px 0 #222;
+	border-radius: 5px;
+}
+
+.banner > .sns > li img:hover {
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* Banner - End */
+
+/* Content - Start */
+
+.content {
+	border-top: 1px solid #222;
+	background-color: #131313;
+	height: 500px;
+	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content h1 {
+	margin-top: 70px;
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+
+.content .subtitle {
+	font-size: 18px;
+	color: #505050;
+	margin-top: 0;
+}
+
+/* Content - End */
+
+/* Footer - Start */
+
+footer {
+	padding: 50px 0;
+	line-height: 20px;
+	border-top: 1px solid #191919;
+	background-color: #000;
+	box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.6);
+	background-image: -webkit-linear-gradient(top, #050505, #000);
+	background-image: linear-gradient(to bottom, #050505, #000);
+	overflow: hidden;
+}
+
+footer a {
+	color: #08a;
+	text-decoration: none;
+}
+
+footer p {
+	margin: 0;
+	text-align: left;
+}
+
+footer .backtop {
+	float: right;
+}
+
+/* Footer - End */

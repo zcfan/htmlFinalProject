@@ -133,22 +133,63 @@ nav #navbar > li > a:hover {
 /* Content - Start */
 
 .content {
+	color: #B5B5B5;
 	border-top: 1px solid #222;
 	background-color: #131313;
 	height: 500px;
 	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.content img {
+	margin: 0 auto 30px;
+	display: block;
+}
+
 .content h1 {
+	color: #B9B9B9;
 	margin-top: 70px;
 	margin-bottom: 10px;
 	font-size: 50px;
 }
 
+.content h2 {
+	font-size: 31px;
+	font-weight: 200;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.content p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
 .content .subtitle {
+	color: #989898;
 	font-size: 18px;
-	color: #505050;
 	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.row {
+	width: 100%;
+}
+
+.row [class*="span"]:first-child{
+	margin-left: 0;
+}
+
+.span3, .span4 {
+	margin-left: 30px;
+	float: left;
+}
+
+.span3 {
+	width: 270px;
+}
+
+.span4 {
+	width: 370px;
 }
 
 /* Content - End */
@@ -164,6 +205,7 @@ footer {
 	background-image: -webkit-linear-gradient(top, #050505, #000);
 	background-image: linear-gradient(to bottom, #050505, #000);
 	overflow: hidden;
+	clear: both;
 }
 
 footer a {

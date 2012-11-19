@@ -4,5 +4,11 @@
 		{
 			"path": "/home/zcfan/Development/Langara/htmlFinalProject"
 		}
+	],
+	"auto_complete": false,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Emmet"
 	]
 }

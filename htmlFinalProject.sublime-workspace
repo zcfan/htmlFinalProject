@@ -27,15 +27,26 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2563,
+				"buffer_size": 2737,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "body {\n	font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n	margin: 0;\n	font-size: 14px;\n	color: #777;\n	background-color: #0a0a0a;\n	text-align: center;\n}\n\na {\n	color: #08a;\n	text-decoration: none;\n}\n\n.container {\n	width: 1170px;\n	margin-left: auto;\n	margin-right: auto;\n}\n\n/* Navbar - Start */\n\n#brand {\n	color: #fff;\n	font-size: 20px;\n	font-weight: bold;\n	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.70), 0 0 30px rgba(255, 255, 255, .65);\n	margin-left: 20px;\n	padding: 10px 0 10px 0;\n	float: right;\n}\n\nnav {\n	line-height: 20px;\n	position: fixed;\n	left: 0;\n	right: 0;\n	z-index: 1030;\n	min-height: 40px;\n	border-bottom: 1px solid #252525;\n	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);\n	background-image: -webkit-linear-gradient(top, #222, #111);\n	background-image: linear-gradient(to bottom, rgb(34, 34, 34), rgb(17, 17, 17));\n}\n\n#navbar {\n	list-style: none;\n	position: relative;\n	left: 0;\n	padding: 0;\n	margin: 0 10px 0 0;\n}\n\nnav #navbar > li {\n	float: left;\n}\n\nnav #navbar > li > a {\n	font-size: 13px;\n	color: #999;\n	padding: 10px 15px 10px;\n	text-decoration: none;\n	display: block;\n	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);\n}\n\nnav #navbar > .active > a {\n	color: #fff;\n	background-color: #111;\n}\n\nnav #navbar > li > a:hover {\n	color: #fff;\n}\n\n/* Navbar - End */\n\n/* Banner - Start */\n\n.masthead {\n	padding: 80px 0px 40px;\n}\n\n.banner {\n	height: 300px;\n	border-top: 1px solid #16909C;\n	border-bottom: 1px solid #000;\n	box-shadow: 0 -3px 50px rgba(0, 200, 255, 0.40);\n	background-repeat: no-repeat;\n	background-position: center;\n	background-image: -webkit-linear-gradient(top, #137781, #116A73);\n	background-image: linear-gradient(to bottom, #137781, #116A73);\n	background-color: #137781;\n	overflow:hidden;\n}\n\n.banner > h1 {\n	font-weight: bold;\n	color: #fff;\n	font-size: 70px;\n	text-shadow: 0 0 20px rgba(255, 255, 255, 0.40), 0 1px 0 #036;\n	margin-top: 40px;\n	margin-bottom: 10px;\n}\n\n.banner > p {\n	color: #fff;\n	font-size: 20px;\n	text-shadow: 0 1px 0 #333;\n}\n\n.banner > .sns {\n	padding: 0;\n	list-style: none;\n	text-align: center;\n}\n\n.banner > .sns > li {\n	padding: 7px 10px;\n	display: inline-block;\n}\n\n.banner > .sns > li img {\n	width: 35px;\n	height: 35px;\n	vertical-align: top;\n	box-shadow: 0 1px 0 #222;\n	border-radius: 5px;\n}\n\n.banner > .sns > li img:hover {\n	box-shadow: none;\n	border-radius: 5px;\n}\n\n/* Banner - End */\n\n/* Content - Start */\n\n.content {\n	color: #B5B5B5;\n	border-top: 1px solid #222;\n	background-color: #131313;\n	-webkit-box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);\n	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);\n	padding-top: 40px;\n	padding-bottom: 20px;\n	display: block;\n	overflow: hidden;\n}\n\n.content img {\n	margin: 30px auto 30px;\n	display: block;\n}\n\n.content h1 {\n	color: #B9B9B9;\n	margin-top: 30px;\n	margin-bottom: 10px;\n	font-size: 50px;\n}\n\n.content h2 {\n	font-size: 31px;\n	font-weight: 200;\n	margin: 10px;\n}\n\n.content p {\n	font-size: 16px;\n	line-height: 24px;\n	margin: 10px;\n}\n\n.content .subtitle {\n	color: #989898;\n	font-size: 18px;\n	margin-top: 0;\n	margin-bottom: 40px;\n}\n\n.row {\n	width: 100%;\n	overflow: hidden;\n	display: block;\n	margin-bottom: 30px;\n}\n\n.row [class*=\"span\"]:first-child{\n	margin-left: 0;\n}\n\n.span3, .span4 {\n	margin-left: 30px;\n	padding-bottom: 20px;\n	float: left;\n	border-radius: 10px;\n	background-color: #101010;\n}\n\n.span3 {\n	width: 270px;\n}\n\n.span4 {\n	width: 370px;\n}\n\n/* Content - End */\n\n/* Footer - Start */\n\nfooter {\n	padding: 50px 0;\n	line-height: 20px;\n	border-top: 1px solid #191919;\n	background-color: #000;\n	box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.6);\n	background-image: -webkit-linear-gradient(top, #050505, #000);\n	background-image: linear-gradient(to bottom, #050505, #000);\n	overflow: hidden;\n	clear: both;\n}\n\n\nfooter p {\n	margin: 0;\n	text-align: left;\n}\n\nfooter .backtop {\n	float: right;\n}\n\n/* Footer - End */\n\n/* Page - title */\n\n.pagetitle {\n	background-color: #137781;\n	background-image: -webkit-linear-gradient(top, #137781, #116A73);\n	background-image: linear-gradient(to bottom, #137781, #116A73);\n	box-shadow: 0 -3px 50px rgba(0, 200, 255, 0.40);\n	border-top: 1px solid #16909C;\n	border-bottom: 1px solid #000;\n	overflow: hidden;\n}\n\n.pagetitle {\n	\n}",
 			"file": "css/style.css",
+			"file_size": 4107,
+			"file_write_time": 1353300936000000,
 			"settings":
 			{
-				"buffer_size": 3718,
+				"buffer_size": 4125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "services.html",
+			"settings":
+			{
+				"buffer_size": 2829,
 				"line_ending": "Unix"
 			}
 		}
@@ -43,16 +54,52 @@
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 159.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"proje",
-				"Project: Save As"
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"proj",
+				"Project: Edit"
+			],
+			[
+				"pro",
+				"Project: Edit"
+			],
+			[
+				"gitp",
+				"Git: Push"
+			],
+			[
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"gitq",
+				"Git: Quick Commit"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
 			],
 			[
 				"ins",
 				"Package Control: Install Package"
+			],
+			[
+				"proje",
+				"Project: Save As"
 			],
 			[
 				"gisto",
@@ -79,14 +126,6 @@
 				"Git: Push"
 			],
 			[
-				"gitq",
-				"Git: Quick Commit"
-			],
-			[
-				"gitad",
-				"Git: Add..."
-			],
-			[
 				"git add",
 				"Git: Add..."
 			],
@@ -101,10 +140,6 @@
 			[
 				"gitstu",
 				"Git: Status"
-			],
-			[
-				"gitp",
-				"Git: Push"
 			],
 			[
 				"color",
@@ -125,10 +160,6 @@
 			[
 				"commit",
 				"Git: Amend Commit"
-			],
-			[
-				"git",
-				"Git: Push"
 			],
 			[
 				"gitpus",
@@ -215,7 +246,7 @@
 				"View: Toggle Minimap"
 			]
 		],
-		"width": 418.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -232,7 +263,16 @@
 	},
 	"file_history":
 	[
+		"/home/zcfan/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/zcfan/Development/Langara/htmlFinalProject/htmlFinalProject.sublime-project",
+		"/home/zcfan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/zcfan/.config/sublime-text-2/Settings/SideBarEnhancements.json",
+		"/home/zcfan/Development/Langara/htmlFinalProject/htmlFinalProject.sublime-workspace",
+		"/home/zcfan/.config/sublime-text-2/Packages/Emmet/Emmet.sublime-settings",
+		"/home/zcfan/.config/sublime-text-2/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/zcfan/.config/sublime-text-2/Packages/Emmet/README.md",
+		"/home/zcfan/Development/Langara/htmlFinalProject/css/style.css",
+		"/home/zcfan/Development/Langara/htmlFinalProject/index.html",
 		"/home/zcfan/Development/Langara/htmlFinalProject/js/gaga.js",
 		"/home/zcfan/.Guardfile",
 		"/var/www/index.html",
@@ -247,11 +287,8 @@
 		"/home/zcfan/Development/Langara/htmlFinalProject/js/nav.js",
 		"/home/zcfan/Development/Langara/htmlFinalProject/contact.html",
 		"/home/zcfan/.config/sublime-text-2/Packages/AdvancedNewFile/README.md",
-		"/home/zcfan/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/zcfan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/zcfan/Downloads/1353223016_Settings.png",
 		"/home/zcfan/Development/Langara/htmlFinalProject/css/style_bk.css",
-		"/home/zcfan/Development/Langara/htmlFinalProject/css/style.css",
 		"/home/zcfan/Development/Langara/htmlFinalProject/README.md",
 		"/home/zcfan/.ssh/id_rsa.pub",
 		"/home/zcfan/Desktop/web/contact.html",
@@ -285,6 +322,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"package",
+			"990",
+			"137781",
+			"990",
+			"137781",
+			"99013137781",
+			"137781",
+			"990",
+			"137781",
+			"990",
+			"137781",
+			"a",
+			"htmlFinalProject",
 			"language",
 			"/home/zcfan/Downloads/",
 			"twitter",
@@ -317,7 +367,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -330,7 +380,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -338,15 +388,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2563,
+						"buffer_size": 2737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								455,
-								455
+								2737,
+								2737
 							]
 						],
 						"settings":
@@ -443,7 +493,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 230.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -453,15 +503,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 3718,
+						"buffer_size": 4125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2864,
-								2864
+								4123,
+								4123
 							]
 						],
 						"settings":
@@ -558,7 +608,122 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2890.0,
+						"translation.y": 3749.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "services.html",
+					"settings":
+					{
+						"buffer_size": 2829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1389,
+								1389
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 445.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -616,16 +781,28 @@
 		"selected_items":
 		[
 			[
-				"in",
-				"index.html"
-			],
-			[
 				"s",
 				"css/style.css"
 			],
 			[
+				"ser",
+				"services.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
 				"i",
 				"index.html"
+			],
+			[
+				"st",
+				"css/style.css"
+			],
+			[
+				"sty",
+				"css/style.css"
 			],
 			[
 				"sc",
@@ -652,14 +829,6 @@
 				"contactus.html"
 			],
 			[
-				"st",
-				"css/style.css"
-			],
-			[
-				"sty",
-				"css/style.css"
-			],
-			[
 				"cs",
 				"css/style.css"
 			],
@@ -679,9 +848,9 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_visible": false,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true
 }

@@ -193,6 +193,7 @@ nav #navbar > li > a:hover {
 
 .span3, .span4 {
 	margin-left: 30px;
+	padding-bottom: 20px;
 	float: left;
 	border-radius: 10px;
 	background-color: #101010;
@@ -233,3 +234,57 @@ footer .backtop {
 }
 
 /* Footer - End */
+
+/* Page - title */
+
+.pagetitle {
+	background-color: #137781;
+	background-image: -webkit-linear-gradient(top, #137781, #116A73);
+	background-image: linear-gradient(to bottom, #137781, #116A73);
+	box-shadow: 0 -3px 50px rgba(0, 200, 255, 0.40);
+	border-top: 1px solid #16909C;
+	border-bottom: 1px solid #000;
+	margin-top: 40px;
+	margin: 40px 0 50px;
+	overflow: hidden;
+}
+
+.pagetitle h1 {
+	margin: 20px 0;
+	font-weight: bold;
+	color: #fff;
+	font-size: 70px;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.40), 0 1px 0 #036;
+}
+
+.buy {
+	background-color: #137781;
+	background-image: -webkit-linear-gradient(top, #137781, #116A73);
+	background-image: linear-gradient(to bottom, #137781, #116A73);
+	box-shadow: 0 -1px 15px rgba(0, 200, 255, 0.40);
+	color: #fff;
+	width: 200px;
+	margin: 20px auto 10px auto;
+	padding: 10px 20px;
+	text-shadow: 0 0 15px rgba(255, 255, 255, 0.40), 0 1px 0 #036;
+	border-top: 1px solid #16909C;
+	border-bottom: 1px solid #000;
+	font-weight: bold;
+	display: block;
+}
+
+.buy:hover {
+	background-color: #137781;
+	background-image: -webkit-linear-gradient(top, #116A73, #095e68);
+	background-image: linear-gradient(to bottom, #116A73, #095e68);
+	box-shadow: 0 -1px 15px rgba(0, 200, 255, 0.40);
+	color: #fff;
+	width: 200px;
+	margin: 20px auto 10px auto;
+	padding: 10px 20px;
+	text-shadow: 0 0 15px rgba(255, 255, 255, 0.60), 0 1px 0 #036;
+	border-top: 1px solid #16909C;
+	border-bottom: 1px solid #000;
+	font-weight: bold;
+	display: block;
+}

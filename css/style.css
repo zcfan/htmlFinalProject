@@ -7,6 +7,11 @@ body {
 	text-align: center;
 }
 
+a {
+	color: #08a;
+	text-decoration: none;
+}
+
 .container {
 	width: 1170px;
 	margin-left: auto;
@@ -136,18 +141,22 @@ nav #navbar > li > a:hover {
 	color: #B5B5B5;
 	border-top: 1px solid #222;
 	background-color: #131313;
-	height: 500px;
+	-webkit-box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: block;
+	overflow: hidden;
 }
 
 .content img {
-	margin: 0 auto 30px;
+	margin: 30px auto 30px;
 	display: block;
 }
 
 .content h1 {
 	color: #B9B9B9;
-	margin-top: 70px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	font-size: 50px;
 }
@@ -155,13 +164,13 @@ nav #navbar > li > a:hover {
 .content h2 {
 	font-size: 31px;
 	font-weight: 200;
-	margin-bottom: 5px;
-	margin-top: 10px;
+	margin: 10px;
 }
 
 .content p {
 	font-size: 16px;
 	line-height: 24px;
+	margin: 10px;
 }
 
 .content .subtitle {
@@ -173,6 +182,9 @@ nav #navbar > li > a:hover {
 
 .row {
 	width: 100%;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 30px;
 }
 
 .row [class*="span"]:first-child{
@@ -182,6 +194,8 @@ nav #navbar > li > a:hover {
 .span3, .span4 {
 	margin-left: 30px;
 	float: left;
+	border-radius: 10px;
+	background-color: #101010;
 }
 
 .span3 {
@@ -208,10 +222,6 @@ footer {
 	clear: both;
 }
 
-footer a {
-	color: #08a;
-	text-decoration: none;
-}
 
 footer p {
 	margin: 0;

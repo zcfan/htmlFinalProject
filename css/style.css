@@ -239,8 +239,8 @@ footer .backtop {
 
 .pagetitle {
 	background-color: #137781;
-	background-image: -webkit-linear-gradient(top, #137781, #116A73);
-	background-image: linear-gradient(to bottom, #137781, #116A73);
+	background-image: -webkit-linear-gradient(top, #1CA9B8, #22828B);
+	background-image: linear-gradient(to bottom, #1CA9B8, #22828B);
 	box-shadow: 0 -3px 50px rgba(0, 200, 255, 0.40);
 	border-top: 1px solid #16909C;
 	border-bottom: 1px solid #000;
@@ -259,8 +259,8 @@ footer .backtop {
 
 .buy {
 	background-color: #137781;
-	background-image: -webkit-linear-gradient(top, #137781, #116A73);
-	background-image: linear-gradient(to bottom, #137781, #116A73);
+	background-image: -webkit-linear-gradient(top, #1CA9B8, #22828B);
+	background-image: linear-gradient(to bottom, #1CA9B8, #22828B);
 	box-shadow: 0 -1px 15px rgba(0, 200, 255, 0.40);
 	color: #fff;
 	width: 200px;

@@ -278,27 +278,37 @@ footer .backtop {
 	box-shadow: 0 -1px 15px rgba(0, 200, 255, 0.40);
 	color: #fff;
 	width: 200px;
-	margin: 20px auto 10px auto;
+	margin: 20px auto 0px auto;
 	padding: 10px 20px;
 	text-shadow: 0 0 15px rgba(255, 255, 255, 0.40), 0 1px 0 #036;
 	border-top: 1px solid #16909C;
 	border-bottom: 1px solid #000;
 	font-weight: bold;
 	display: block;
+	cursor: pointer;
 }
 
 .buy:hover {
-	background-color: #137781;
 	background-image: -webkit-linear-gradient(top, #116A73, #095e68);
 	background-image: linear-gradient(to bottom, #116A73, #095e68);
-	box-shadow: 0 -1px 15px rgba(0, 200, 255, 0.40);
-	color: #fff;
+	margin-bottom: 10px;
+}
+
+.label_buy {
+	background-image: -webkit-linear-gradient(top, #9F0E00, #710400);
+	background-color: #f00;
 	width: 200px;
-	margin: 20px auto 10px auto;
-	padding: 10px 20px;
-	text-shadow: 0 0 15px rgba(255, 255, 255, 0.60), 0 1px 0 #036;
-	border-top: 1px solid #16909C;
-	border-bottom: 1px solid #000;
-	font-weight: bold;
 	display: block;
+	color: #000;
+	font-weight: lighter;
+	font-size: 13px;
+	line-height: 20px;
+	text-shadow: 0px 1px 0 #444;
+	padding: 0 20px;
+	margin: 0 auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: 1px solid #f00;
+	border-bottom: 1px solid #a00;
+	box-shadow: 0 1px 5px #000, 0 0 2px #111;
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>C12</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	</head>
+
+	<body>
+		<nav>
+			<div class="container">
+				<label id="brand">C12 Lab</label>
+				<ul id="navbar">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./products.html">Products</a></li>
+					<li><a href="./services.html">Services</a></li>
+					<li class="active" onmouseover="show_sub()" onmouseout="hide_sub()">
+						<a href="./about.html">About C12.</a>
+						<a style="display: none;" id="nav-sub" href="./contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<a name="top"></a>
+
+		<div class="masthead content about">
+			<div class="container">
+				<header class="pagetitle">
+					<h1>About us.</h1>
+				</header>
+
+				<div class="row">
+					<div class="span12">
+						<p>Hello, I am Alan, one of the C12 members. Let me give you a introduction of our team.</p>
+						<p>We are some students of Computer Programming. As you see, we are trying to help others make website. There is a part of our work:</p>
+
+						<video width="800" height="500" controls="controls">
+							<source src="./video/about.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+
+						<p>If you want contact us. You can use <a href="./contact.html">this link</a> or send a email. </p>
+						<p>Of couse we can also have a real meeting. Here is our location:</p>
+
+						<div id="mapholder"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<p class="backtop"><a href="#top">Back to top</a></p>
+				<p>Designed by <a href="https://github.com/zcfan">Alan@C12</a>.</p>
+				<p>Hosted on <a href="https://github.com/zcfan/htmlFinalProject">Github</a>, All advice welcomed, and feel free to copy.</p>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="./js/nav.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script type="text/javascript" src="./js/geo.js"></script>
+
+	</body>
+</html>

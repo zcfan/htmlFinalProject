@@ -24,7 +24,7 @@
 
 		<a name="top"></a>
 
-		<div class="content" style="padding-top:80px;">
+		<div class="content contact" style="padding-top:80px;">
 			<div class="container">
 				<header class="pagetitle">
 					<h1>Contact us.</h1>
@@ -32,14 +32,20 @@
 
 				<div class="row">
 					<div class="span12">
-						<img src="./img/design.png" alt="design" />
-						<form action="#" method="get">
-							<p>Your E-Mail</p>
-							<input type="email" required="required"></input>
-							<p>Your Message</p>
-							<textarea required="required"></textarea>
-							<input class="buy" type="submit" ></input>
-						</form>
+						<div class="span8" style="margin:40px auto 20px auto;float:none;">
+							<form action="./index.html" method="get" id="mailform">
+								<p>Your E-Mail</p>
+								<input type="email" max="100" required="required"></input>
+								<p>Your Message</p>
+								<textarea max="400" required="required"></textarea>
+								<div id="sendmail" style="padding:0 30px;">
+									<label>Drag the mail from left to right to submit.</label>
+									<img src="./img/mail.png" id="mail" draggable="true"/>
+									<div id="mailbox" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+								</div>
+								<input style="display:none;" type="submit" id="mailsubmit"/>
+							</form>
+						</div>
 					</div>
 				</div>
 
@@ -55,6 +61,7 @@
 		</footer>
 
 		<script type="text/javascript" src="./js/nav.js"></script>
+		<script type="text/javascript" src="./js/mail.js"></script>
 
 	</body>
 </html>

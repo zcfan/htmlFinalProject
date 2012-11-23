@@ -13,16 +13,18 @@
 				<ul id="navbar">
 					<li><a href="./index.html">Home</a></li>
 					<li><a href="./products.html">Products</a></li>
-					<li class="active"><a href="./services.html">Services</a></li>
-					<li><a href="./about.html">About C12</a></li>
-					<li><a href="./contact.html">Contact Us</a></li>
+					<li><a href="./services.html">Services</a></li>
+					<li class="active">
+						<a href="./about.html" style="color:#999">About C12.</a>
+						<a id="nav-sub" href="./contact.html">Contact Us</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
 
 		<a name="top"></a>
 
-		<div class="masthead content">
+		<div class="content" style="padding-top:80px;">
 			<div class="container">
 				<header class="pagetitle">
 					<h1>Contact us.</h1>
@@ -31,15 +33,14 @@
 				<div class="row">
 					<div class="span12">
 						<img src="./img/design.png" alt="design" />
-						<h2>Web design</h2>
-						<p>You can get your own website for only $10000000, what you nedd to do is just use your head hit the wall, and give your money to me.</p>
-						<a href="#" class="buy">$10000000.00</a>
+						<form action="#" method="get">
+							<p>Your E-Mail</p>
+							<input type="email" required="required"></input>
+							<p>Your Message</p>
+							<textarea required="required"></textarea>
+							<input class="buy" type="submit" ></input>
+						</form>
 					</div>
-				</div>
-
-				<div class="row">
-					<h1>Are you kidding me?!</h1>
-					<p class="subtitle">You really want to buy that things?!!!</p>
 				</div>
 
 			</div>
@@ -52,6 +53,8 @@
 				<p>Hosted on <a href="https://github.com/zcfan/htmlFinalProject">Github</a>, All advice welcomed, and feel free to copy.</p>
 			</div>
 		</footer>
+
+		<script type="text/javascript" src="./js/nav.js"></script>
 
 	</body>
 </html>

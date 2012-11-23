@@ -14,8 +14,10 @@
 					<li><a href="./index.html">Home</a></li>
 					<li class="active"><a href="./products.html">Products</a></li>
 					<li><a href="./services.html">Services</a></li>
-					<li><a href="./about.html">About C12</a></li>
-					<li><a href="./contact.html">Contact Us</a></li>
+					<li onmouseover="show_sub()" onmouseout="hide_sub()">
+						<a href="./about.html">About C12.</a>
+						<a style="display: none;" id="nav-sub" href="./contact.html">Contact Us</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
@@ -61,6 +63,8 @@
 				<p>Hosted on <a href="https://github.com/zcfan/htmlFinalProject">Github</a>, All advice welcomed, and feel free to copy.</p>
 			</div>
 		</footer>
+
+		<script type="text/javascript" src="./js/nav.js"></script>
 
 	</body>
 </html>
